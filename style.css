@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+nav{
+    /* background-color: rgb(214, 208, 208); */
+}
+.topbtns{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    gap: 5px;
+    position: sticky;
+}
+.topbtns button{
+    padding:10px 15px;
+    border-radius: 25px;
+    color:white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.menutxt{
+    font-size: 120px;
+    padding-left: 30px;
+    line-height: 110px;
+    letter-spacing: -3px;
+}
+.bottommenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px;
+}
+.bottommenu h4{
+    font-size:25px;
+}
+
+.bodyimg img{
+    object-fit: cover;
+    height:95vh;
+    width: 100%;
+}
+.about{
+    height:75vh;
+        width:100%;
+        display: flex;
+        padding:35px;
+}
+.about .left{
+    width: 65%;
+    padding:0 20px;
+    /* background-color: grey; */
+    border-right: 2px solid black;
+    border-width: 2px;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 90px;
+    color:rgb(37, 36, 36);
+}
+.about .right{
+    width:35%;
+    height:100%;
+    padding:0 30px;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.righttop h3{
+    font-size: 30px;
+}
+.rightbottom i{
+    font-size: 30px;
+    gap:5px;
+}
+/* .newabout{
+    width:100%;
+    height:60%;
+    
+    border-top: 2px solid black;
+    display: flex;
+    padding:20px 30px;
+}
+.newabout .left {
+width:40%;
+height:100%;
+
+border-right: 2px solid black;
+display: flex;
+
+justify-content: space-between;
+font-size: 25px;
+padding:0 20px;
+}
+.newabout .right{
+    
+    width:60%;
+    overflow: hidden;
+    padding:0 25px;
+}
+.newabout .right .top{
+    display: flex;
+}
+.newabout .right .bottom{
+    display: flex;
+    border-top: 2px solid black;
+}
+.newabout .right div{
+    width:100%;
+    padding:10px 20px
+}
+.newabout .right h2{
+    font-size: 30px;
+}
+.newabout .right p{
+    font-size: 16px;
+    color:rgb(58, 56, 56);
+    line-height: 25px;
+}
+.newabout .right .top div:first-child{
+    border-right: 2px solid black;
+}
+.newabout .right .bottom div:first-child{
+    border-right: 2px solid black;
+} */
+
+.newabout{
+    width: 100%;
+    height:60%;
+    /* background-color: grey; */
+    display: flex;
+    border-top: 2px solid black;
+    padding:30px;
+    /* margin: 25px; */
+}
+
+.newabout .left{
+    width:35%;
+    height: 100%;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    /* font-weight: 800; */
+}
+.newabout .left i{
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.newabout .right{
+    width: 65%;
+    height: 100%;
+    padding-left: 15px;
+}
+
+.newabout .right-part{
+    display: flex;
+    padding:0 10px;
+    padding-bottom: 30px;
+}
+.newabout .right-part:nth-child(2){
+    padding:30px 10px;
+    border-top: 2px solid black;
+}
+
+.newabout .right .right-part .elem{
+    width:50%;
+    padding:0 30px;
+}
+.newabout .right .right-part .elem:nth-child(1){
+    border-right:2px solid black;
+    
+}
+.newabout .right .right-part .elem:nth-child(2){
+    padding-left: 30px;
+    
+}
+.newabout .right h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.newabout .right p{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    color: rgb(49, 48, 48);
+}
