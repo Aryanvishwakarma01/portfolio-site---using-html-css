@@ -1,2 +1,2 @@
 # learning content
-learning javascript from scratch
+html & css projects
